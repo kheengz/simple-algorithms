@@ -1,7 +1,4 @@
-// Given an array of unsorted positive integers, write a
-// function that finds runs of 3 consecutive numbers (ascending or descending)
-// and returns the indices where such runs begin. If no such runs are found, return null.
-// result =  [0,4,6,7];
+// flips two array and find the least swap value
 flip = (A, B) => {
     let min = Math.max(...A) + 1;
     for (let i = 0; i < A.length; i++) {

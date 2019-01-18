@@ -1,5 +1,5 @@
 // flips two array and find the least swap value
-flip = (A, B) => {
+flipCards = (A, B) => {
     let min = Math.max(...A) + 1;
     for (let i = 0; i < A.length; i++) {
         if (A[i] !== B[i]) {
@@ -18,4 +18,4 @@ const b = [1, 3, 2, 3];
 // const a = [3, 2, 1, 6, 5];
 // const b = [4, 2, 1, 3, 3];
 
-console.log("result : ", flip(a, b));
+console.log("result : ", flipCards(a, b));

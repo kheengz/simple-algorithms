@@ -1,3 +1,4 @@
+var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 /** *
  * @returns Very simple crow distance between 2 points
  */
@@ -47,7 +48,6 @@ function polygonType() {
 
                     // for line separated file
                     fileText = rawFile.responseText.split('\n');
-                    //alert(fileText);
                 }
             }
         }
@@ -56,7 +56,7 @@ function polygonType() {
 
     // create polygons array
     const polygons = [];
-    readTextFile('./polygons.txt');
+    readTextFile('./polygon.txt');
 //document.write(fileText.length);
     fileText.forEach(function (p) {
         polygons.push(p);

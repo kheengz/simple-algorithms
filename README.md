@@ -5,8 +5,8 @@
 - Degree of an Array
 - Fibonacci Series
 - Flip Cards
-- is Prime
-- Palindrome
+- Is Prime
+- Is Palindrome
 - Prefix of a string
 - Trees Unique Paths
 - Unique Items in am Array
